@@ -1,3 +1,1 @@
-redux to Hooks
-Context API
-custom hooks
+custom Store instead of CONTEXT API or REDUX

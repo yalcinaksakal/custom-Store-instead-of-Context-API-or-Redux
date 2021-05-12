@@ -12,10 +12,11 @@ body {
 
 button {
   font: inherit;
-  background: #ff2058;
-  padding: 0.5rem 1rem;
+  font-size: 10px;
+  background: lightblue;
+  padding: 0.2rem 0.5rem;
   color: white;
-  border: 1px solid #ff2058;
+  border: 1px solid lightblue;
   margin: 0.5rem 0;
   border-radius: 5px;
   cursor: pointer;
@@ -24,7 +25,7 @@ button {
 button:hover,
 button:active {
   background: white;
-  color: #ff2058;
+  color: lightblue;
 }
 
 button:focus {
@@ -33,12 +34,12 @@ button:focus {
 
 button.button-outline {
   background: white;
-  color: #ff2058;
+  color: lightblue;
 }
 
 button.button-outline:hover,
 button.button-outline:active {
-  background: #ff2058;
+  background: lightblue;
   color: white;
   box-shadow: none;
 }

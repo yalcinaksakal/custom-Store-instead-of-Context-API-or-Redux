@@ -1,10 +1,9 @@
 .main-header {
   height: 3.5rem;
   display: flex;
-
   justify-content: center;
   align-items: center;
-  background-color: #ff2058;
+  background-color: limegreen;
 }
 
 .main-header nav {
@@ -31,17 +30,21 @@
 
 .main-header a {
   text-decoration: none;
-  color: white;
+  color: rgb(38, 154, 38);
   font-weight: bold;
+  transition: color 0.2s ease-out;
 }
 
 .main-header a:hover,
 .main-header a:active,
 .main-header a.active {
-  color: #560061;
+  color: white;
 }
 
-@media (max-width: 250px) {
+@media (max-width: 300px) {
+  .main-header {
+    height: 4rem;
+  }
   .main-header ul {
     flex-direction: column;
   }

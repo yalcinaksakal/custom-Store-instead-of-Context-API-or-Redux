@@ -1,7 +1,7 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React from "react";
+import { NavLink } from "react-router-dom";
 
-import './Navigation.css';
+import "./Navigation.css";
 
 const Navigation = props => {
   return (
@@ -9,10 +9,15 @@ const Navigation = props => {
       <nav>
         <ul>
           <li>
-            <NavLink to="/" exact>All Products</NavLink>
+            <NavLink to="/" exact>
+              All Products
+            </NavLink>
           </li>
           <li>
             <NavLink to="/favorites">Favorites</NavLink>
+          </li>
+          <li>
+            <NavLink to="/counter">Counter</NavLink>
           </li>
         </ul>
       </nav>
